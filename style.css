@@ -1,7 +1,7 @@
 :root {
-    --text-color: #DBE4EF;
-    --card-front-color: #144480;
-    --card-back-color: #00F4BF;
+    --text-color: #ffffff;
+    --card-front-color: #051a12;
+    --card-back-color: #f8ea72;
 }
 
 body {
@@ -27,7 +27,6 @@ body {
 .cartao__conteudo {
     background-color: var(--card-front-color);
     text-align: center;
-    /* background-color: aquamarine; */
     height: 100%;
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
@@ -100,10 +99,6 @@ footer p {
 
 @media (max-width: 560px) {
     
-    body {
-        background: url('img/bg-mobile.webp'), no-repeat cover;
-    }
-
     .cartao {
         flex: 1 0 calc(100% - 1rem)
     }
